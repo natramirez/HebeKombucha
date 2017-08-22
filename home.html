@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hebe Kombucha</title>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="./css/home.css">
+	<!-- for journalregular font -->
+	<link type="text/css" rel="stylesheet" href="./css/stylesheet.css" charset="utf-8" />
+	<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet'>
+	<script src="https://use.typekit.net/uja1keh.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="./home.js"></script>
+</head>
+
+<body>
+
+<div class="main-body">
+	<!-- Site Banner -->
+	<div class="site-banner" id="siteBanner">
+
+		<div class="logo-container" id="logoContainer">
+			<a class="logo" href="./home.html"></a>
+		</div>
+
+	<!-- Top navigation bar -->
+		<div class="top-nav" id="topNav">
+			<div class="dropdown">
+				<a href="./home.html" class="dropbtn no-menu">Home</a>
+			</div>
+			<div class="dropdown">
+				<a href="./about_us.html" class="dropbtn no-menu">About Us</a>
+				<!-- <button class="dropbtn">About Us</button> -->
+				<div class="dropdown-content hide">
+					<a href="about_us.html#who-we-are">Who We Are</a>
+					<a href="about_us.html#our-mission">Our Mission</a>
+					<!-- <a href="#">Join Our Team</a> -->
+				</div>
+			</div>
+			<div class="dropdown">
+				<a href="./about_probiotics.html" class="dropbtn">About Probiotics</a>
+
+				<div class="dropdown-content hide">
+					<a href="about_probiotics.html#general-info">Probiotics: General Info</a>
+					<a href="about_probiotics.html#about-kombucha">About Kombucha</a>
+					<a href="about_probiotics.html#about-water-kefir">About Water Kefir</a>
+					<!-- <a href="#">Join Our Team</a> -->
+				</div>
+
+			</div>
+			<div class="dropdown">
+				<a href="./our_products.html" class="dropbtn no-menu">Our Products</a>
+
+				<div class="dropdown-content hide">
+					<div class="rel-dropdown-subcontent-container">
+						<a id="kombucha-btn" href="our_products.html#kombucha-section">Hebe Kombucha</a>
+						<div id="kombucha-menu" class="dropdown-subcontent hide">
+							<a href="our_products.html#kombucha-classic">Classic</a>
+							<a href="our_products.html#kombucha-aronia">Aronia</a>
+						</div>
+					</div>
+
+					
+					<div class="rel-dropdown-subcontent-container">
+						<a id="water-kefir-btn" href="our_products.html#water-kefir-section">Hebe Water Kefir</a>
+						<div id="water-kefir-menu" class="dropdown-subcontent hide">
+							<a href="our_products.html#water-kefir-fig">Black Mission Fig</a>
+							<a href="our_products.html#water-kefir-apple-raisin">Apple-Raisin</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="dropdown">
+				<!-- <a href="#" class="dropbtn no-menu">Contact Us</a> -->
+				<!-- Trigger the modal with a button -->
+  				<a class="dropbtn no-menu" data-toggle="modal" data-target="#myModal">Contact Us</a>
+
+				  <!-- Modal -->
+				  <div class="modal fade" id="myModal" role="dialog">
+				    <div class="modal-dialog">
+				    
+				      <!-- Modal content-->
+				      <div class="modal-content">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">&times;</button>
+				          <h4 class="modal-title">Contact Us</h4>
+				        </div>
+				        <div class="modal-body">
+				          <p style="text-align:center; padding: 10px 0px 10px 0px;">Questions or comments?<br><br>Send us an email at:<br/> contact@hebekombucha.com </p>
+				        </div>
+				        <div class="modal-footer">
+				          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        </div>
+				      </div>
+				      
+				    </div>
+				  </div>
+
+			</div>
+		</div>
+	</div>
+
+<div class="slogan-container">
+	<div class="slogan-top">Nature-Infused Probiotics</div>
+	<div class="slogan-top-tm">TM</div>
+	<ul class="slogan-bottom">
+		<li class="slogan-bottom-item"><a href="#">Kombucha</a> • </li>
+		<li class="slogan-bottom-item"><a href="#">Water Kefir</a></li>
+		<!-- <li class="slogan-bottom-item"><a href="#">Vinegar</a></li> -->
+	</ul>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+	  <br>
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	    <!-- Indicators -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	      <li data-target="#myCarousel" data-slide-to="2"></li>
+	    </ol>
+
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner" role="listbox">
+	      <div class="item active">
+	        <img src="./images/kombucha-family-products.jpg" alt="Kombucha Family Products" width="460" height="345">
+	      </div>
+
+	      <div class="item">
+	        <img src="./images/wk-fig-family.jpg" alt="Water Kefir Fig Family" width="460" height="345">
+	      </div>
+	      <div class="item">
+	        <img src="./images/wk-apple-raisin-family.jpg" alt="Water Kefir Apple-Raisin Family" width="460" height="345">
+	      </div>
+	    </div>
+
+	    <!-- Left and right controls -->
+	    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
+	  </div>
+	</div>
+</div>
+
+<div class="greeting-container">
+	<div class="greeting-paragraph">
+		Welcome to <span class="co-name-pink" style="font-size: 30px;">Hebe</span><span class="co-name-black" style="font-size: 30px;">K<span class="co-name-pink" style="font-size: 30px;">o</span>mbucha</span>! <br>Your wellspring for “Nature-Infused Probiotics."
+	</div>
+</div>
+
+<div class="text-section-container">
+	<div class="text-section-header">Behind the Hebe</div>
+	<div class="text-section-paragraph">
+		Hebe, whose name originates from a Greek word meaning "prime of life," was the <span class="keyword-text">ancient Greek goddess of youth</span>. She was the cup bearer of the gods, so she had the privilege and task of serving ambrosia (a bread-like substance) and nectar (a mythical beverage) to the Olympians to maintain their immortality.
+
+		<img class="img-icon" src="./images/hebe-head1.png"></img>
+
+		Well, we at <span class="co-name-pink">Hebe</span><span class="co-name-black">K<span class="co-name-pink">o</span>mbucha</span> do not have the secret recipe for making nectar, and certainly cannot promise immortality, but we do know much about how to craft and serve kombucha and water kefir, <span class="keyword-text">two extraordinary probiotic beverages offering a myriad of health benefits</span>.
+	</div>
+</div>
+
+
+<div class="text-section-container">
+	<div class="text-section-header">Brewed Naturally</div>
+	<div class="text-section-paragraph">
+		We brew and craft natural flavor-enriched kombucha and water kefir by  <span class="keyword-text">blending old tradition with the latest nutritional science</span>. We did not settle with the ancient recipes, but set out to make two already great products of nature even better. We do so by “infusing” our all-natural, raw kombucha and water kefir brews with just the right amount of carefully resourced, all-organic fruits and herbs, rich in <span class="keyword-text">health-boosting vitamins</span>,  <span class="keyword-text">polyphenols</span> and  <span class="keyword-text">free-radical fighting antioxidants</span>. We brew our creations only in  <span class="keyword-text">small batches</span> to ensure quality and flavor in our products.
+	</div>
+</div>
+
+<div class="text-section-container">
+	<div class="text-section-header">Our Signature Products</div>
+	<div class="text-section-paragraph">
+		We are especially proud of crafting and serving our signature <span class="keyword-text">Aronia Kombucha</span> and <span class="keyword-text">Black Mission Fig Water Kefir</span> products. We infuse both probiotic beverages with just the right amount of aronia (also known as black chokeberry) and black mission figs, both U.S. grown “super fruits” packed with <span class="keyword-text">immune-boosting anthocyanins</span> and other <span class="keyword-text">natural antioxidants</span>.
+	</div>
+</div> 
+
+<div class="text-section-container">
+	<div class="text-section-header">Earth-friendly Ingredients</div>
+	<div class="text-section-paragraph">
+		All of our fruits and herbs are <span class="keyword-text">organic</span>, thereby reducing the harmful impact of synthetic pesticides on the environment. 
+		And, <span class="keyword-text">more than 90%</span> of the fruits going into our probiotics products are resourced from <span class="keyword-text">local and California growers</span>. By keeping it local, we are reducing our carbon footprint while supporting local farmers and enriching local communities. Go planet Earth!<br><br> 
+	</div>
+</div>
+
+<div class="text-section-container last-section glyphs"><span class="glyphicon glyphicon-globe"></span></div> 
+	
+<div class="site-footer">
+	<ul class="footer-links">
+		<li class="footer-links-item" style="padding-right: 15px;"><a class="disclaimer-link" href="./disclaimer.html">Disclaimer</a>   </li>
+		<li class="footer-links-item" style="padding-left: 15px;"><a class="disclaimer-link" href="./terms_and_conditions.html">Terms and Conditions</a></li>
+	</ul>
+	<div class="copyright-text"> Copyright © 2017 HebeKombucha </div>
+</div>
+
+
+</div>
+
+</body>
+
+</html>

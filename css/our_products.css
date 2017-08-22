@@ -1,0 +1,38 @@
+.product-module {
+	align-self: center;
+}
+
+.product-header {
+	align-self: center;
+	font-size: 50px;
+	padding: 30px 0px 20px 0px;
+}
+
+.product-sub-header {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+#apple-raisin-btn-div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.apple-raisin-btn {
+	justify-content: space-between;
+}
+
+.full-width-big {
+	margin:auto;
+	width: 60%;
+	padding: 40px 90px 0px 90px;
+}
+
+.product-img {
+	box-shadow: 5px 5px 26px 0px rgba(0,0,0,0.2);
+	width: 100%;
+}
+
+.button-div {
+	padding-top: 20px;
+}
